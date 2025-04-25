@@ -1,0 +1,16 @@
+menu "esp-eq configuration"
+	config GPIO_BT_STATE_LED
+		int "Number of GPIO pin, connected to led, that indicates bluetooth state (connected/disconnected)"
+		default 2
+
+	config GPIO_MUSIC_LED 
+		int "Number of GPIO pin, connected to led, that blinks to the rythm of music"
+		default 4
+
+	config NUM_CB_TO_CALCULATE_AVG 
+		int "Number of average samples per last data callbacks stored to calculate current average"
+		default 32
+
+
+
+endmenu
