@@ -11,6 +11,14 @@ menu "esp-eq configuration"
 		int "Number of average samples per last data callbacks stored to calculate current average"
 		default 32
 
+	
+	config GPIO_I2C_SDA
+		int "I2C SDA pin"
+		default 21
+
+	config GPIO_I2C_SCL
+		int "I2C SCL pin"
+		default 22
 
 
 endmenu
