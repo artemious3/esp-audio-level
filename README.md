@@ -6,12 +6,14 @@ OLED display shows a bar of size, proportional to current average level of signa
 
 ## Pinout
 
-SSD1306 display is connected to default I2C pins, that is :
+SSD1306 display is connected to default ESP-Wroom-32 I2C pins, that is:
  
+```
  GND     ->    GND
  VCC     ->    VCC
  I2C SDA ->    GPIO 21
  I2C SCL ->    GPIO 22
+```
  
 A led on GPIO 2 indicates connected/disconnected state of board.
 
