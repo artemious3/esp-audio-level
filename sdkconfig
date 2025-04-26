@@ -1116,7 +1116,7 @@ CONFIG_ESP_SPI_BUS_LOCK_ISR_FUNCS_IN_IRAM=y
 #
 # LCD Peripheral Configuration
 #
-# CONFIG_LCD_ENABLE_DEBUG_LOG is not set
+CONFIG_LCD_ENABLE_DEBUG_LOG=y
 # end of LCD Peripheral Configuration
 # end of LCD and Touch Panel
 
@@ -2095,6 +2095,8 @@ CONFIG_GPIO_MUSIC_LED=4
 CONFIG_NUM_CB_TO_CALCULATE_AVG=32
 CONFIG_GPIO_I2C_SDA=21
 CONFIG_GPIO_I2C_SCL=22
+CONFIG_SSD1306_V_RES=64
+CONFIG_SSD1306_H_RES=128
 # end of esp-eq configuration
 # end of Component config
 
