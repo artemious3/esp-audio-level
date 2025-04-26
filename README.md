@@ -1,8 +1,11 @@
 
 # ESP-Audio-Level
 
-This project performs vizualization of audio on SSD1306 display, connected to ESP32
+This project performs vizualization of audio on SSD1306 display, connected to ESP32. 
+
 OLED display shows a bar of size, proportional to current average level of signal.
+
+![Board image](./img.webp)
 
 ## Pinout
 
